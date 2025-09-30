@@ -11,8 +11,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(1, 4), -3)
         self.assertEqual(subtract(10, 5), 5)
     def test_divide(self):
-        self.asserEqual(divide(10, 2), 5)
-        self.asserEqual(divide(-6, 3), -2)
-        self.asserEqual(divide(4, 1), 4)
+        self.assertEqual(divide(10, 2), 5)
+        self.assertEqual(divide(-6, 3), -2)
+        self.assertEqual(divide(4, 1), 4)
 if __name__ == '__main__':
     unittest.main()
